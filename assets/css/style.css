@@ -86,19 +86,26 @@ header nav ul li a {
     font-size: 48px;
     color: var(--secondary-color);
     text-align: right;
-    padding: 0 20px 0px 128px;
+    margin: 0 20px 0 128px;
 }
 
 .flex-row {
     display: flex;
 }
 
+.dividing-border {
+    border-left: 3px solid var(--secondary-color);
+}
+
 /* about me section styles start */
 .bio {
     background-color: var(--tertiary-color);
     display: flex;
-    flex-wrap: wrap;
     padding: 50px 25px 0 0;
+}
+
+.bio img {
+    padding: 0 0 25px 30px;
 }
 
 .bio p {
@@ -107,5 +114,11 @@ header nav ul li a {
     width: 900px;
     font-size: 20px;
     padding: 0 0 25px 30px;
-    border-left: 3px solid var(--secondary-color);
+}
+
+/* work section styles start */
+.work {
+    background-color: var(--tertiary-color);
+    display: flex;
+    padding: 50px 25px 0 0;
 }
