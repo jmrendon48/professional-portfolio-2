@@ -1,7 +1,7 @@
 :root {
     --primary-color: #9932CD;
     --secondary-color: #2E0854;
-    --tertiary-color: #BF5FFF;
+    --tertiary-color: #E5CCFF;
 }
 
 * {
@@ -46,7 +46,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 0 50px 0 0;
+    margin: 0 50px 0 0;
 }
 
 header nav ul li a {
@@ -63,7 +63,7 @@ header nav ul li a {
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
     background-position: 80%;
-    background-attachment: fixed;
+    background-attachment: relative;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -77,4 +77,35 @@ header nav ul li a {
     padding: 10px;
     font-size: 2.3vw;
     margin: 0 50px 15px 0;
+}
+/* hero styles end */
+
+/* general styles start */
+
+.section-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    text-align: right;
+    padding: 0 20px 0px 128px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+/* about me section styles start */
+.bio {
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 25px 0 0;
+}
+
+.bio p {
+    display: flex;
+    color: var(--secondary-color);
+    width: 900px;
+    font-size: 20px;
+    padding: 0 0 25px 30px;
+    border-left: 3px solid var(--secondary-color);
 }
