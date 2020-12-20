@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #9932CD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* apply styles to <body> */ 
+body {
+    color: 	#301934;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header styles start */
+header {
+    padding: 20px 0px;
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0 10px 0 50px;
+    color: navy;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 50px 0 0;
+}
+
+header nav ul li a {
+    padding: 10px 25px;
+    margin: 5px;
+    font-size: 1.55vw;
+    border-bottom: 5px solid var(--primary-color);
+    color: var(--primary-color);
+}
