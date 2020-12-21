@@ -50,6 +50,7 @@ header nav ul {
 }
 
 header nav ul li a {
+    display: flex;
     padding: 10px 25px;
     margin: 5px;
     font-size: 20px;
