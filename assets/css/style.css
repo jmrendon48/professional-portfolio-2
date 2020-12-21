@@ -36,10 +36,6 @@ header a {
     text-decoration: none;
 }
 
-header nav {
-    margin: 7px 0;
-}
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
