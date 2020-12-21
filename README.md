@@ -7,5 +7,9 @@ A website showcasing my skills and talents to employers looking to fill a part-t
 * HTML
 * CSS
 
+## Screenshot
+
+![A screenshot of the Professional Portfolio](./assets/images/professional-portfolio-screenshot.png)
+
 ## Website
 http://jmrendon48.github.io/professional-portfolio-2/
