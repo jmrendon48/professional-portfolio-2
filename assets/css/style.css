@@ -96,6 +96,13 @@ header nav ul li a {
     padding: 0 20px 0 123px;
 }
 
+.section-title-3 {
+    font-size: 48px;
+    color: var(--secondary-color);
+    text-align: right;
+    padding: 0 20px 0 78px;
+}
+
 .flex-row {
     display: flex;
 }
@@ -157,6 +164,10 @@ header nav ul li a {
     padding: 5px;
 }
 
+.work-grid-item:hover {
+    opacity: 0.5;
+}
+
 .work-grid-item h3 {
     font-size: 25px;
 }
@@ -186,3 +197,36 @@ header nav ul li a {
     background-attachment: relative;
     display: flex;
 }
+
+.contact {
+    display: flex;
+    flex-wrap: flex;
+    background-color: var(--tertiary-color);
+    padding: 50px 25px 50px 0;
+}
+
+.contacts nav ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+}
+
+.contacts nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: center;
+}
+
+.contacts nav ul li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 35px;
+    border-bottom: 5px solid var(--secondary-color);
+    color: var(--secondary-color);
+    margin: 0 30px 0 60px;
+}
+
+
