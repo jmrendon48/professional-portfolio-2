@@ -80,21 +80,21 @@ header nav ul li a {
 /* general styles start */
 
 .section-title-1 {
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--secondary-color);
     text-align: right;
     padding: 0 20px 0 113px;
 }
 
 .section-title-2  {
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--secondary-color);
     text-align: right;
     padding: 0 20px 0 123px;
 }
 
 .section-title-3 {
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--secondary-color);
     text-align: right;
     padding: 0 20px 0 78px;
@@ -150,7 +150,8 @@ header nav ul li a {
 }
 
 .group-project-img {
-    width: 55vw;
+    width: 100%;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -164,7 +165,8 @@ header nav ul li a {
 }
 
 .project-img {
-    width: 30vw;
+    width: 100%;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     display: block;
