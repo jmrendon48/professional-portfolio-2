@@ -147,6 +147,7 @@ header nav ul li a {
 .project-container {
     border: 3px solid black;
     height: 50px;
+    padding: 7px;
 }
 
 .work-grid-wrapper {
@@ -203,7 +204,7 @@ header nav ul li a {
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     section {
         padding: 30px 15px;
     }
