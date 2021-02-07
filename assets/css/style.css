@@ -146,13 +146,15 @@ header nav ul li a {
 
 .project-container {
     border: 3px solid black;
-    height: 50px;
     padding: 7px;
 }
 
-.work-grid-wrapper {
-    display: flex;
-    width: 100%;
+.group-project-img {
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 .contact {
