@@ -146,7 +146,7 @@ header nav ul li a {
 
 .project-container {
     border: 1.8px solid black;
-    padding: 7px;
+    padding: 10px;
 }
 
 .group-project-img {
@@ -154,13 +154,27 @@ header nav ul li a {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 10px;
 
+}
+
+.project-title {
+    font-size: 33px;
+    margin: 10px;
 }
 
 .project-img {
     width: 30vw;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.application {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px;
     display: block;
 }
 
