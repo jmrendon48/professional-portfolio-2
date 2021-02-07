@@ -109,6 +109,11 @@ header nav ul li a {
 }
 
 /* about me section styles start */
+.self-portrait {
+    width: 300px;
+    height: auto;
+}
+
 .bio {
     background-color: var(--tertiary-color);
     display: flex;
